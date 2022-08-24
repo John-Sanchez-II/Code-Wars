@@ -21,3 +21,6 @@ var list1 = [
       return['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'].every(continent => list.some( person => person.continent === continent))
     
     }
+
+
+    let 
