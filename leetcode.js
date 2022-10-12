@@ -15,6 +15,7 @@ var kidsWithCandies = function(candies, extraCandies) {
             }
         } 
           return results
+    }
     //   add candies[i] to extracandies 
     //   compare largest number in candies to extracandies and check if it is greater or less than
         
@@ -24,7 +25,7 @@ var kidsWithCandies = function(candies, extraCandies) {
 
   
 // array numbers -> array booleans
-var kidsWithCandies = function(candies, extraCandies) {
+// var kidsWithCandies = function(candies, extraCandies) {
     // maxCandy to get the person with the most candy - reduce
     // loop through candies add extracandy and check if thats biggest than maxCandy
         // - REDUCE (*)
@@ -38,4 +39,3 @@ var kidsWithCandies = function(candies, extraCandies) {
     // });
     const maxCandy = candies.reduce((prev, curr) => prev > curr ? prev : curr);
     return candies.map(count => count + extraCandies >= maxCandy);
-}
