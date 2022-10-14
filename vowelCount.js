@@ -19,3 +19,15 @@ function getCount(str){
   
     return vowelCount;
   }
+
+  function getCount(str) {
+    let vowelsNum = 0;
+    
+    for (let vow of str) {
+      if (vow === 'a' || vow === 'e' || vow === 'i' || vow === 'o' || vow === 'u') {
+        vowelsNum++
+      }
+    }
+  //   console.log(vowelsNum)
+    return vowelsNum;
+  }
