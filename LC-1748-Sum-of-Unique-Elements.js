@@ -63,7 +63,7 @@ var sumOfUnique = function (nums) {
       uniqueEl[num]++;
     }
   }
-  /*  const filtered uniqueEl.keys(obj)filter(key => {
+  /*  const filtered = uniqueEl.keys(obj)filter(key => {
              return uniqueEl[key] === 1
          })
      const total = filtered.reduce((prev, curr)=> parseInt(prev) + parseInt(curr))
