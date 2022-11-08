@@ -17,13 +17,13 @@ function findUniq(arr) {
         }
         else if(arr[1] === arr[2]){
           return arr[0]
-    //    console.log(arr)
-        }
+    
+         }
+} 
     //   indexOF
     //   dont want number to be array need integer
     //   return +arr.filter((value) => { 
     // //     console.log(value)
     //     return arr.indexOf(value) === arr.lastIndexOf(value) 
     //     console.log(value)
-    //   } );
-      
+    //   } )
