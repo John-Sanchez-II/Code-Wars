@@ -27,3 +27,6 @@ function swap (string) {
     }
     return vowelCaps
   }
+
+  const vowels = ["a", "e", "i", "o", "u"];
+const swapOut = s => s.split('').map(x => vowels.includes(x) ? x.toUpperCase() : x).join('');
